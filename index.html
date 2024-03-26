@@ -8,16 +8,86 @@
 
     <!--Google Font & Icons-->
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"rel="stylesheet">
 
 </head>
 <body>
     <div class="grid-container">
-        <header class="header"></header>
-        <aside id="sidebar"></aside>
-        <main class="main-container"></main>
+        <!--HEADEAR-->
+        <header class="header">
+        <div class="menu-icon" onclick="openSidebar()">
+            <span class="material-icons-outlined">menu</span>
+        </div>
+        <div class="header-left">
+            <span class="material-icons-outlined">search</span>
+        </div>
+        <div class="header-right">
+            <span class="material-icons-outlined">notifications</span>
+            <span class="material-icons-outlined">mail</span>
+            <span class="material-icons-outlined">account_box</span>
+        </div>
+        </header>
+        <!--SIDEBAR-->
+        <aside id="sidebar">
+        <div class="sidebar-title">
+            <div class="sidebar-brand">
+                <span class="material-icons-outlined">shopping_cart</span> STORE
+                </div>
+                <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+            </div>
+        <ul class="sidebar-list">
+            <li class="sidebar-list-item"><span class="material-icons-outlined">dashboard</span> Dashboard</li>
+            <li class="sidebar-list-item"><span class="material-icons-outlined">date_range</span> Years</li>
+            <li class="sidebar-list-item"><span class="material-icons-outlined">calendar_month</span> Months</li>
+            <li class="sidebar-list-item"><span class="material-icons-outlined">receipt</span> Receipts</li>
+        </ul>
+        </aside>
+        
+        
+        <!--MAIN-->
+        <main class="main-container">
+            <div class="main-title">
+                <h2>Dashboard</h2>
+            </div>
+            <!--Cards-->
+            <div class="main-cards">
+                <div class="card">
+                    <div class="card-inner">
+                        <h3>This MONTH Consumption</h3>
+                        <span class="material-icons-outlined">electric_bolt</span>
+                        <span class="material-icons-outlined">water_drop</span> 
+                    </div>
+                    <h1>??|??</h1>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <h3>This MONTH Last YEAR</h3>
+                        <span class="material-icons-outlined">electric_bolt</span>
+                        <span class="material-icons-outlined">water_drop</span>  
+                    </div>
+                    <h1>??|??</h1>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <h3>Ovearll Average this YEAR</h3>
+                        <span class="material-icons-outlined">electric_bolt</span>
+                        <span class="material-icons-outlined">water_drop</span>  
+                    </div>
+                    <h1>??|??</h1>
+                </div>
+
+                <div class="card">
+                    <div class="card-inner">
+                        <h3>Overall Average Last YEAR</h3>
+                        <span class="material-icons-outlined">electric_bolt</span>
+                        <span class="material-icons-outlined">water_drop</span>  
+                    </div>
+                    <h1>??|??</h1>
+                </div>
+            </div>
+        </main>
     </div>
+    <!--Scripts-->
     <script src="main.js"></script>
 </body>
 </html>
