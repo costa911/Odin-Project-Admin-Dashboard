@@ -180,3 +180,28 @@ body{
         display: none;
     }
 }
+/* styles.css */
+
+/* Add table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: black;
+    font-weight: bold; /* Make the header text bold */
+  }
+  
+  /* Adjust form layout */
+  form {
+    margin-top: 20px;
+  }
+  
