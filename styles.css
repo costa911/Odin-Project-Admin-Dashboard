@@ -205,3 +205,34 @@ table {
     margin-top: 20px;
   }
   
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.myavatar {
+    width: 100px;
+    /* Adjust the width as needed */
+    height: 100px;
+    /* Adjust the height as needed to maintain aspect ratio */
+    border-radius: 50%;
+    /* This creates a round shape */
+    border: 2px solid #ffc107;
+    /* Add a border around the image with a food-inspired color */
+    object-fit: cover;
+    /* This ensures the image fills the space while maintaining aspect ratio */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-image {
+    width: 75px; /* Set the desired width for the logo */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: auto; /* Center the image horizontally */
+    margin-top: 10px; /* Add some top margin for spacing */
+}

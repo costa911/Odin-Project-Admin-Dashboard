@@ -44,4 +44,4 @@ function handleSubmit(event) {
   
   // Event listener for form submission
   document.getElementById("reading-form").addEventListener("submit", handleSubmit);
-  
+
